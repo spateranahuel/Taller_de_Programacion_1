@@ -35,13 +35,19 @@ public class BeerHouse
 	{
 		assert cantMesas >= 1: "La cantidad de mesas debe ser mayor o igual a 1.";
 		assert abierto != true: "El bar ya esta abierto";
-		//se invoca un metodo que inicializa y carga el arraylist de mesas y les setea a todas el estado 'L' referenciando que están libres
+
 		if(cantMesas>totalMesas)
 			this.cantMesas = totalMesas;
 		else
 			this.cantMesas = cantMesas;
 		this.cantProductos = 20;
 		this.abierto = true;
+		
+		for(int i=0;i<cantMesas;i++)
+		{
+			Mesas.get(i).setEstado('L');
+			assert Mesas.get(i).getEstado() != 'L': "El estado de una mesa no se modifico correctamente";
+		}
 	}
 	
 	/**
