@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"modelo","c":"BeerHouse","l":"abrirLocal(int)"},{"p":"modelo","c":"BeerHouse","l":"BeerHouse()","u":"%3Cinit%3E()"},{"p":"modelo","c":"InterfazDeUsuario","l":"InterfazDeUsuario()","u":"%3Cinit%3E()"},{"p":"modelo","c":"Negocio","l":"Negocio()","u":"%3Cinit%3E()"}];updateSearchResults();
